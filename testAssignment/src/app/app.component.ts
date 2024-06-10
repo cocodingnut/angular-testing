@@ -12,12 +12,13 @@ export class AppComponent {
   characters: Character[] = [];
   pageNumber: number = 1;
 
-  constructor(private characterService: CharacterService) {}
+  constructor(private characterService: CharacterService) { }
 
   ngOnInit(): void {
     this.fetchCharacters();
   }
 
+  // 
   fetchCharacters(): void {
     from(this.characterService.getCharacters(this.pageNumber))
       .subscribe(
