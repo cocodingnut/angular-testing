@@ -16,7 +16,7 @@ describe('AppComponent', () => {
   test('shows how many books this character made an appearance in', () => {});
   test('shows alias if no name is present', () => {});
 });
-
+```
 
 ### In `character.service.ts`, test:
 ```typescript
@@ -25,6 +25,7 @@ describe('AppComponent', () => {
   test('shows how many books this character made an appearance in', () => {});
   test('shows alias if no name is present', () => {});
 });
+```
 
 ### After these four tests:
 	1.	What is the code coverage?
