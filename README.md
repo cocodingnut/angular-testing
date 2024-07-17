@@ -10,6 +10,8 @@ First test suite will test html rendering. Second test will test the getCharacte
 After these four tests, what is the code coverage?  How to improve higher code coverage for this Angular application?
 What are TDD and BDD and what are the differences between them?
 In the app.component.ts, test:
+
+```typescript
 describe(“AppComponent’’, () => {
  test(’shows fields for “name” and “culture”, ()=>{});
  test(’shows how many books this characters made an appearance in”,  () => {});
